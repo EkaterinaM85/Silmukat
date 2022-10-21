@@ -54,4 +54,18 @@ for (let i = 1; i<=100; i++){
  console.log(s);
 
 //tehtävä 10
+let ksum = 1;
+for (let i = 1; i <= 100; i++) {
+ksum += i**(i+1);}
+console.log(ksum);
 
+//tehtävä 11
+var fib = [0, 1];
+for(var i=fib.length; i<100; i++) {
+    fib[i] = fib[i-2] + fib[i-1];
+}
+console.log(fib); 
+
+//tehtävä 12
+for(i=1; i<=100; i++){
+    console.log(i,101-i)}
